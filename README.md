@@ -1,7 +1,7 @@
 # KON-ERC20-Token
 Create your own ERC20 Token: `NtinosToken (KON)`
 
-Create the Token easily with the help of <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20">OpenZeppelin</a>
+Create the Token easily with the help of the <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20">OpenZeppelin</a> library
 
 For more help check their <a href="https://docs.openzeppelin.com/contracts/4.x/erc20">documentation</a>
 
