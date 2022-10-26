@@ -1,0 +1,30 @@
+dependencies:
+ # - <organization/repo>@<version>
+  - OpenZeppelin/openzeppelin-contracts@4.2.0
+
+compiler: 
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0"
+
+dotenv: .env
+
+networks:
+  default: development
+  development:
+    # keyhash: "0x0476f9a745b61ea5c0ab224d3a6e4c99f0b02fce4da01143a4f70aa80ae76e8a"
+    # fee: 100000000000000000
+    verify: False
+  goerli: 
+    # vrf_coordinator: "0x2Ca8E0C643bDe4C2E08ab1fA0da3401AdAD7734D"
+    # eth_usd_price_feed: "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e"
+    # link_token: "0x326C977E6efc84E512bB9C30f76E30c160eD06FB"
+    # keyhash: "0x0476f9a745b61ea5c0ab224d3a6e4c99f0b02fce4da01143a4f70aa80ae76e8a"
+    # fee: 100000000000000000
+    verify: True
+  mainnet-fork:
+    # eth_usd_price_feed: "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+    verify: False
+
+wallets: 
+  from_key: ${PRIVATE_KEY}
